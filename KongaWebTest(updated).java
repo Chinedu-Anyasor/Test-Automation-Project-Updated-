@@ -33,6 +33,8 @@ public class KongaWebTest {
         String actualPageUrl = driver.getCurrentUrl();
         if (actualPageUrl.contains(expectedPageUrl))
             System.out.println("successful login");
+        else
+            System.out.println("Unsuccessful login");
 
 }
 
